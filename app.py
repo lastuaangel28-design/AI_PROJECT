@@ -13,7 +13,7 @@ with st.spinner('Loading model...'):
 
 # 3. UI Header
 st.title("🐱 vs 🐶 Image Classifier")
-st.write("Upload an image to classify it using EfficientNetB0.")
+st.write("Upload an image to classify it using MobileNetV2.")
 
 # 4. File Uploader
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
