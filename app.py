@@ -12,7 +12,7 @@ with st.spinner('Loading model...'):
     model = load_model('best_model.h5')
 
 # 3. UI Header
-st.title("🐱 vs 🐶 Image Classifier")
+st.title("🐱 vs 🐶 Classifier")
 st.write("Upload an image to classify it using MobileNetV2.")
 
 # 4. File Uploader
